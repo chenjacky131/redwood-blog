@@ -1,14 +1,14 @@
 import { render } from '@redwoodjs/testing/web'
 
-import MyPagePage from './MyPagePage'
+import ContactPage from './ContactPage'
 
 //   Improve this test with help from the Redwood Testing Doc:
 //   https://redwoodjs.com/docs/testing#testing-pages-layouts
 
-describe('MyPagePage', () => {
+describe('ContactPage', () => {
   it('renders successfully', () => {
     expect(() => {
-      render(<MyPagePage />)
+      render(<ContactPage />)
     }).not.toThrow()
   })
 })
